@@ -1,87 +1,50 @@
 <!DOCTYPE html>
-<html lange="es">
-  <head>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <style>
-    h1 {
-      font-family: Roboto, sans-serif;
-    }
-    
-    h2 {
-      font-family: Roboto, sans-serif;
-    }
-    
-    p {
-      font-family: Roboto, sans-serif;
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hoja de vida</title>
+</head>
 
-    li {
-      font-family: Roboto, sans-serif;
-    }
-
-    form {
-      font-family: Roboto, sans-serif;
-    }
-
-    table {
-      font-family: Roboto, sans-serif;
-    }
-
-    h1 {color:rgb(4, 76, 84)}
-    h2 {background-color: rgb(4, 76, 84);}
-    h2 {color: rgb(255, 255, 255);}
-    p {color: rgb(34, 34, 32);}
-
-
-   </style>
-
-   <style>
-  .ancho-fijo {
-    width: 300px; /* O usa porcentaje, em, rem, etc. */
-  }
-    </style>
-
-
-
-    <title>EJEMPLO PROGRAMACIÓN</title>
-  </head>
-  
-  <body>
-    <header>
-    <center><img src="imagenes/1.jpg" alt="foto" width="30%" height="30%"> 
-      <h1>Michael Gonzalez Bonilla</span></h1>
-      <p>Economista, Esp. Finanzas</p></center>
+<body>
+    <header class="header">
+        <img src="imagenes/1.jpg" alt="foto" width="15%" height="15%" class="logo"> 
+      <div class="tituloheader">
+        <h1>Michael Gonzalez Bonilla</h1>
+        <!--opcional si quiero cambiar color de subtitulo <div class="subtitulo">-->
+        <p>Economista, Esp. Finanzas</p>
+        </div>
     </header>
 
     <hr>
 
-    <nav>
-      <h2>Menú</h2>
-      <ul>
-        <li><a href="#acerca">Acerca de mí</a></li>
-        <li><a href="#experiencia">Experiencia laboral</a></li>
-        <li><a href ="#formacion">Formación académica</a></li>
-        <li><a href="#idiomas">Idiomas</a></li>
+    <nav class="nav">
+      <ul class="barnav">
+        <li class="menu"><a href="#acerca" id="enlace">Acerca de mí</a></li>
+        <li class="menu"><a href="#experiencia" id="enlace">Experiencia laboral</a></li>
+        <li class="menu"><a href ="#formacion" id="enlace">Formación académica</a></li>
+        <li class="menu"><a href="#idiomas" id="enlace">Idiomas</a></li>
       </ul>
     </nav>
     
     <hr>
 
-    <section id="acerca">
-      <h2>Acerca de mi</h2>
-      <p>Especialista en Finanzas. Experiencia en el área administrativa y financiera. Capaz de aplicar y analizar distintas herramientas e indicadores financieros. Nivel de Excel intermedio.</p>
+    <section class="acercade">
+      <h2 class="t-acercade">Acerca de mi</h2>
+      <p class="p-acercade">Especialista en Finanzas. Experiencia en el área administrativa y financiera. Capaz de aplicar y analizar distintas herramientas e indicadores financieros. Nivel de Excel intermedio.</p>
 
-      <p>Cuento con amplia experiencia en el sector constructivo, gerencia de proyectos, seguimiento de presupuestos, manejo de equipos de trabajo y atención al cliente. Tengo capacidad para trabajar en equipo, alta habilidad de gestión, facilidad de aprendizaje y adaptabilidad al cambio.</p>
+      <p class="p-acercade">Cuento con amplia experiencia en el sector constructivo, gerencia de proyectos, seguimiento de presupuestos, manejo de equipos de trabajo y atención al cliente. Tengo capacidad para trabajar en equipo, alta habilidad de gestión, facilidad de aprendizaje y adaptabilidad al cambio.</p>
     </section>
 
       <hr>
 
     <section id="experiencia">
-      <h2>Experiencia laboral</h2>
-      <img src="imagenes/logo.png" alt="logo" width="30%" height="30%">
-      <p><strong>Coordinador administrativo</strong></p>
-      <p>Funciones:</p>
-      <ol>
+      <h2 class="t-experiencia">Experiencia laboral</h2>
+      <img src="imagenes/logo.png" alt="logo" width="20%" height="20%">
+      <p class="p-experiencia"><strong>Coordinador administrativo</strong></p>
+      <p class="p-experiencia">Funciones:</p>
+      <ol class="p-experiencia">
         <li>Planeación financiera</li>
         <li>Negociación con proveedores</li>
         <li>Supervición de personal</li>
@@ -93,7 +56,7 @@
     <section id="formacion">
       <h2>Formación académica</h2>
      
-    <a href="https://www.uao.edu.co/"><img src="imagenes/logouao.webp" alt="logo" width="30%" height="30%">
+      <a href="https://www.uao.edu.co/"><img src="imagenes/logouao.webp" alt="logo" width="30%" height="30%">
       <p>Universidad Autónoma de Occidente</p></a>
       <ul type="square">
         <li>Especialización en finanzas - 2021</li>
@@ -123,10 +86,9 @@
       </table> 
     </section>
   
-  <br>
    <hr>
-  <br>
 
+  <section id="formulario">
   <form action="#" method="post">
   <fieldset>
     <legend>Contácto</legend>
@@ -149,6 +111,9 @@
   
   </fieldset>  
   </form>
+  </section>
+
+  <footer class="footer"></footer>
 
 
   </body>
