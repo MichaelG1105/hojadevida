@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url("imagenes/fondo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: azure;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Inicio de header*/
+.header{
+    width: 80%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+.tituloheader{
+    margin: 50px;
+    color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    font-size: 22px;
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+
+/*Inicio de nav*/
+.nav{
+    width: 80%;
+    height: 48px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.barnav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.menu{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(251, 251, 251);
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 4px;
+       
+}
+
+.menu:hover{
+    background-color: rgba(55, 93, 183, 60%);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#enlace{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+#enlace:hover{
+    text-decoration: none;
+    color: rgb(241, 245, 247);
+    
+}
+
+/*Inicio de acercade*/
+#acercade{
+    width: 80%;
+    height: 220px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.t-acercade{
+    
+    width: 90%;
+    margin: 10px 0;
+    text-align: left;
+
+}
+
+.p-acercade{
+    width: 90%;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+/*Inicio de experiencia*/
+
+#experiencia{
+    width: 80%;
+    height: 220px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.tituloexperiencia{
+    width: 80%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.tituloexp{
+    
+    width: 80%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.logoexp{
+    width: 80%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.cargo{
+    width: 50%;
+    color: rgb(9, 9, 9);
+    text-align: left;
+}
+
+
+
+.logoexperiencia{
+    
+}
+
+
+
+/*Inicio de formacion*/
+#formacion{
+    width: 80%;
+    height: 220px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.tituloformacion{
+    width: 80%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+ 
+}
+
+.tituloform{
+    
+    width: 80%;
+    margin: 10px 0;
+    text-align: left;
+   /* border: 1px dashed red; 
+   comando para ver marco de cajas*/
+
+}
+
+.logoformacion{
+    width: 80%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.universidad{
+    width: 50%;
+    color: rgb(9, 9, 9);
+    text-align: left;
+}
+
+/*Inicio de idiomas*/
+#idiomas{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.t-idiomas{
+    width: 90%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.tablaidiomas{
+    width: 50%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+/*Inicio de formulario*/
+#contacto{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.contacto{
+    width: 90%;
+    text-align: center;
+}
+
+/*Inicio de footer*/
+.footer{
+   width: 80%;
+   height: 50px;
+    background-color: rgba(55, 93, 183, 60%);
+    color: rgb(247, 247, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 10px;
+    }
+
+
+
+
+
+/*Inicio de header*/
