@@ -23,7 +23,6 @@ body{
 /*Inicio de header*/
 .header{
     width: 80%;
-    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -46,7 +45,6 @@ body{
     border-radius: 10px;
 }
 
-
 /*Inicio de nav*/
 .nav{
     width: 80%;
@@ -64,7 +62,6 @@ body{
     align-items: center;
     
 }
-
 
 .menu{
     width: 20%;
@@ -99,7 +96,6 @@ body{
 #enlace:hover{
     text-decoration: none;
     color: rgb(241, 245, 247);
-    
 }
 
 /*Inicio de acercade*/
@@ -171,14 +167,6 @@ body{
     color: rgb(9, 9, 9);
     text-align: left;
 }
-
-
-
-.logoexperiencia{
-    
-}
-
-
 
 /*Inicio de formacion*/
 #formacion{
